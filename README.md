@@ -8,7 +8,7 @@
   - Pulls in a custom conda environment and automatically clones the latest
     version of the code/notebook repository down to the home space.
 
-Setup (to run the JupyterLab environment):
+## Setup (to run the JupyterLab environment):
   **You only need to do these steps once**
   1. Install Docker
   2. Create a [GitHub Personal Access Token](https://github.com/settings/token) granting access to your repositories.
@@ -18,7 +18,7 @@ Setup (to run the JupyterLab environment):
 
   NB: Docker might be configured to use only a limited amount of CPU/memory - you might wish to increase this.
 
-To run:
+## To run:
   * Launch `start_container.sh` and open the webpage starting with `127.0.0.1` (including the access token)
   * This will automatically mount to a local volume called `mount` in the present working directory from which you launch the script.
     This directory will mirror the working directory (`~/work`) in the JupyterLab instance.
